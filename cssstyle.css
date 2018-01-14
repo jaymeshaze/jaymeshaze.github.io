@@ -1,0 +1,131 @@
+/*Portfolio Page CSS Stylesheet*/
+
+body{
+    background: #888;
+  }
+  
+  .navbar{
+    height: 70px;
+  }
+  
+  .navbar-brand{
+    font-size: 30px;
+  }
+  
+  .nav-item{
+    font-size: 20px;
+    padding-left: 50px;
+  }
+  
+  .box{
+    height: 1000px;
+    padding-top: 70px;
+  }
+  
+  h2{
+    color: gray;
+    font-size: 40px;
+    padding-top: 260px;
+  }
+  
+  h4{
+    color: gray;
+    font-size: 60px;
+  }
+  
+  h5{
+    color: white;
+    font-size: 20px;
+  }
+  
+  #Intro{
+    background-color: #111;
+  }
+  
+  #About{
+    background-image: url("https://lh3.googleusercontent.com/wU5-4gRJ-03uZ0RQnExj9njGVVWH5421XhljZbgrbQMrogm109r5ckDMKUBGanIadHD_zV7H_GKmm7eqjuEFlXjIpIVLdJ47RBSJ6MbShKprWFFuWRcyAfwcRC1bFsgEuszbYXMBRsPmzkM0jQt1BUKZPYl28ScjO_qyV7SeiuIa9ZjFskB97qwMFRjjHnlEk5QI9jXMM97r0S8zd46ZxmRzIKWaaQPAXsVknAIy-HnqI97T-d0zDLkcFe8N75qCQuvFAGTzsGQqVhzmqXsVMrUrbm2TarVeIou6wGX5R8vRb9_M0AaAb8FsJeo_BM_mggXwbNvDcmu3P-8AfBYqGRQQw3L-KpG1XElfXIKZ0SlbOZFnJS4HKU90uDMNJpsvnhTRdVCQFCqrvjfqXfEUPpIwENhL_dWqX6DTklhE87l5VgQK13cPgvl22NjPSRUIRSCxd-s-VVmmy5-R9h0g2HYKoMBK1rdVcKaOiZokGfN4mC32rA3_kBVOkEDdnlWVtsclIBApqmhSiA2Q82Eq7YR0ikG1GSdrhnjRDPuIrE7o5RBh-9nz70DUxlye3nEH9m4JooL1doL4baZs-SZUcDRGJuQPaeoeOKBPU9XElAfWrAR3-savoUJ_s31Nc2Jj9ovV_xQD8qU09rRVXrHOiKHh95xazrzs=w542-h949-no");
+    height: 100%;
+  }
+  
+  .about-text{
+    padding: 60px 50px 20px 50px;
+  }
+  
+  .profile-img {
+    width: 150px;
+    margin-top: 20px;
+  }
+  
+  p{
+    font-size: 18px;
+    color: white;
+  }
+  
+  .skills ul{
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  
+  .skills ul li{
+    font-size: 25px;
+    padding: 30px;
+    display: inline-block;
+    list-style: none;
+    color: white;
+  }
+  
+  .langs{
+    font-size: 22px;
+    padding-top: 25px;
+  }
+  
+  .langs ul{
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  
+  .langs ul li{
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  #Projects{
+    background-image: url("https://lh3.googleusercontent.com/wU5-4gRJ-03uZ0RQnExj9njGVVWH5421XhljZbgrbQMrogm109r5ckDMKUBGanIadHD_zV7H_GKmm7eqjuEFlXjIpIVLdJ47RBSJ6MbShKprWFFuWRcyAfwcRC1bFsgEuszbYXMBRsPmzkM0jQt1BUKZPYl28ScjO_qyV7SeiuIa9ZjFskB97qwMFRjjHnlEk5QI9jXMM97r0S8zd46ZxmRzIKWaaQPAXsVknAIy-HnqI97T-d0zDLkcFe8N75qCQuvFAGTzsGQqVhzmqXsVMrUrbm2TarVeIou6wGX5R8vRb9_M0AaAb8FsJeo_BM_mggXwbNvDcmu3P-8AfBYqGRQQw3L-KpG1XElfXIKZ0SlbOZFnJS4HKU90uDMNJpsvnhTRdVCQFCqrvjfqXfEUPpIwENhL_dWqX6DTklhE87l5VgQK13cPgvl22NjPSRUIRSCxd-s-VVmmy5-R9h0g2HYKoMBK1rdVcKaOiZokGfN4mC32rA3_kBVOkEDdnlWVtsclIBApqmhSiA2Q82Eq7YR0ikG1GSdrhnjRDPuIrE7o5RBh-9nz70DUxlye3nEH9m4JooL1doL4baZs-SZUcDRGJuQPaeoeOKBPU9XElAfWrAR3-savoUJ_s31Nc2Jj9ovV_xQD8qU09rRVXrHOiKHh95xazrzs=w542-h949-no");
+    height: 100%;
+  }
+  
+  .project-body-left{
+    padding: 60px 0 0 60px;
+  }
+  
+  .project-body-right{
+    padding: 60px 60px 0 0;
+  }
+  
+  .project-img{
+    width: 40%;
+    margin: auto;
+  }
+  
+  #Contact{
+    background-image: url("https://lh3.googleusercontent.com/wU5-4gRJ-03uZ0RQnExj9njGVVWH5421XhljZbgrbQMrogm109r5ckDMKUBGanIadHD_zV7H_GKmm7eqjuEFlXjIpIVLdJ47RBSJ6MbShKprWFFuWRcyAfwcRC1bFsgEuszbYXMBRsPmzkM0jQt1BUKZPYl28ScjO_qyV7SeiuIa9ZjFskB97qwMFRjjHnlEk5QI9jXMM97r0S8zd46ZxmRzIKWaaQPAXsVknAIy-HnqI97T-d0zDLkcFe8N75qCQuvFAGTzsGQqVhzmqXsVMrUrbm2TarVeIou6wGX5R8vRb9_M0AaAb8FsJeo_BM_mggXwbNvDcmu3P-8AfBYqGRQQw3L-KpG1XElfXIKZ0SlbOZFnJS4HKU90uDMNJpsvnhTRdVCQFCqrvjfqXfEUPpIwENhL_dWqX6DTklhE87l5VgQK13cPgvl22NjPSRUIRSCxd-s-VVmmy5-R9h0g2HYKoMBK1rdVcKaOiZokGfN4mC32rA3_kBVOkEDdnlWVtsclIBApqmhSiA2Q82Eq7YR0ikG1GSdrhnjRDPuIrE7o5RBh-9nz70DUxlye3nEH9m4JooL1doL4baZs-SZUcDRGJuQPaeoeOKBPU9XElAfWrAR3-savoUJ_s31Nc2Jj9ovV_xQD8qU09rRVXrHOiKHh95xazrzs=w542-h949-no");
+    height: 100%;
+  }
+  
+  .social-icons p {
+    color: white;
+    padding-top: 30px;
+  }
+  
+  .social-icons ul a {
+    color: white;
+    list-style: none;
+  }
+  
+  .social-icons ul a li {
+      display: inline-block;
+      padding: 20px 50px 20px 20px;
+  }
